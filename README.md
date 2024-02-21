@@ -24,7 +24,7 @@ Runtime Stage: Uses a slim version of the Debian Docker image for a minimal runt
 To run the Docker container locally, execute the following command after building your Docker image:
 
 docker run -d -p 8080:8080 --name my-rust-actix-app rust-actix-exp
-![Alt text](running-run.png)
+![Alt text](docker-run.png)
 
 This command runs the container in detached mode, maps port 8080 of the container to port 8080 on the host, and names the container my-rust-actix-app.
 
